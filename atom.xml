@@ -6,7 +6,7 @@
   <link href="https://suikaed.github.io/atom.xml" rel="self"/>
   
   <link href="https://suikaed.github.io/"/>
-  <updated>2024-03-02T08:30:10.451Z</updated>
+  <updated>2024-03-02T08:36:46.085Z</updated>
   <id>https://suikaed.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://suikaed.github.io/2024/03/01/Post-006/"/>
     <id>https://suikaed.github.io/2024/03/01/Post-006/</id>
     <published>2024-03-01T09:28:00.000Z</published>
-    <updated>2024-03-02T08:30:10.451Z</updated>
+    <updated>2024-03-02T08:36:46.085Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1-生成ssh"><a href="#1-生成ssh" class="headerlink" title="1. 生成ssh"></a>1. 生成ssh</h3><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//生成ssh</span></span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line"><span class="comment">//再到/home文件里，shift+command+。显示隐藏文件，找到.ssh文件</span></span><br></pre></td></tr></table></figure><h3 id="2-Hexo常用命令"><a href="#2-Hexo常用命令" class="headerlink" title="2. Hexo常用命令"></a>2. Hexo常用命令</h3><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//页面生成</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment">//页面预览</span></span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment">//页面部署</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><hr><p>（持续更新）</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="1-生成ssh"><a href="#1-生成ssh" class="headerlink" title="1. 生成ssh"></a>1. 生成ssh</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//生成ssh</span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line">//再到/home文件里，shift+command+。显示隐藏文件，找到.ssh文件</span><br></pre></td></tr></table></figure><h3 id="2-Hexo常用命令"><a href="#2-Hexo常用命令" class="headerlink" title="2. Hexo常用命令"></a>2. Hexo常用命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//页面生成</span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">//页面预览</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line">//页面部署</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><hr><p>（持续更新）</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;1-生成ssh&quot;&gt;&lt;a href=&quot;#1-生成ssh&quot; class=&quot;headerlink&quot; title=&quot;1. 生成ssh&quot;&gt;&lt;/a&gt;1. 生成ssh&lt;/h3&gt;&lt;figure class=&quot;highlight jsx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=</summary>
+    <summary type="html">&lt;h3 id=&quot;1-生成ssh&quot;&gt;&lt;a href=&quot;#1-生成ssh&quot; class=&quot;headerlink&quot; title=&quot;1. 生成ssh&quot;&gt;&lt;/a&gt;1. 生成ssh&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td </summary>
       
     
     
@@ -135,15 +135,15 @@
     <link href="https://suikaed.github.io/2024/02/25/Post-002/"/>
     <id>https://suikaed.github.io/2024/02/25/Post-002/</id>
     <published>2024-02-25T14:31:00.000Z</published>
-    <updated>2024-02-25T14:36:28.340Z</updated>
+    <updated>2024-03-02T08:36:15.494Z</updated>
     
-    <content type="html"><![CDATA[<p>在<em>Blog</em>文件夹中新建以下MD文件：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">date: 2024-xx-xx xx:xx:xx</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> xxxx</span><br><span class="line">tags:</span><br><span class="line"><span class="section">- xxxx</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">（MD格式的文章粘贴在此处）</span><br></pre></td></tr></table></figure><p>再用终端生成文章，同步到Github部署页面中</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>在<em>Blog</em>文件夹中新建以下MD文件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">date: 2024-xx-xx xx:xx:xx</span><br><span class="line">categories:</span><br><span class="line">- xxxx</span><br><span class="line">tags:</span><br><span class="line">- xxxx</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">（MD格式的文章粘贴在此处）</span><br></pre></td></tr></table></figure><p>再用终端生成文章，同步到Github部署页面中</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;在&lt;em&gt;Blog&lt;/em&gt;文件夹中新建以下MD文件：&lt;/p&gt;
-&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;spa</summary>
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;sp</summary>
       
     
     
@@ -160,9 +160,9 @@
     <link href="https://suikaed.github.io/2024/02/25/Post-001/"/>
     <id>https://suikaed.github.io/2024/02/25/Post-001/</id>
     <published>2024-02-25T07:41:36.000Z</published>
-    <updated>2024-02-25T14:06:39.458Z</updated>
+    <updated>2024-03-02T08:35:54.713Z</updated>
     
-    <content type="html"><![CDATA[<p>之前用Hexo部署在Github的方式搭建了博客，现在从写文章开始到在博客中发布。</p><hr><ol><li><p>首先找到本地库的文件夹，例如文件夹叫做<em>Blog</em></p></li><li><p>右键文件夹，选择<em>New Terminal at Folder…</em>，打开终端</p></li><li><p>输入：</p> <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;Page#001&quot;</span><br></pre></td></tr></table></figure></li><li><p>source文件夹中出现一个叫<em>Page#001</em>的markdown文件，并导出文章内容（如从Notion），再使用MD编辑器（如IntelliJ IDEA）完成文章编辑</p></li><li><p>终端输入：</p> <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g    # 生成页面</span><br><span class="line">hexo d    # 部署发布</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>之前用Hexo部署在Github的方式搭建了博客，现在从写文章开始到在博客中发布。</p><hr><ol><li><p>首先找到本地库的文件夹，例如文件夹叫做<em>Blog</em></p></li><li><p>右键文件夹，选择<em>New Terminal at Folder…</em>，打开终端</p></li><li><p>输入：</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;Page#001&quot;</span><br></pre></td></tr></table></figure></li><li><p>source文件夹中出现一个叫<em>Page#001</em>的markdown文件，并导出文章内容（如从Notion），再使用MD编辑器（如IntelliJ IDEA）完成文章编辑</p></li><li><p>终端输入：</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g    # 生成页面</span><br><span class="line">hexo d    # 部署发布</span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
     
       

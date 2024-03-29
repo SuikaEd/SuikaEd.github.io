@@ -6,7 +6,7 @@
   <link href="https://suikaed.github.io/atom.xml" rel="self"/>
   
   <link href="https://suikaed.github.io/"/>
-  <updated>2024-03-02T08:36:46.085Z</updated>
+  <updated>2024-03-29T14:22:01.574Z</updated>
   <id>https://suikaed.github.io/</id>
   
   <author>
@@ -17,18 +17,76 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Stable Diffusion安装记录</title>
+    <link href="https://suikaed.github.io/2024/03/29/Post-008/"/>
+    <id>https://suikaed.github.io/2024/03/29/Post-008/</id>
+    <published>2024-03-29T14:21:00.000Z</published>
+    <updated>2024-03-29T14:22:01.574Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="平台"><a href="#平台" class="headerlink" title="平台"></a>平台</h2><p>Ubuntu22.04LTS</p><p>CUDA11.5</p><p>Torch1.12.0</p><p>显卡RTX2060-6G</p><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p>安装流程:</p><p><a href="https://blog.csdn.net/formaever/article/details/129649684">Ubuntu20.04本地部署Stable-Diffusion-webui AI绘画环境_ubuntu stable diffusion-CSDN博客</a></p><p>可能出现的系统代理问题解决方案:</p><p><a href="https://blog.csdn.net/u011573853/article/details/136723529">解决openai调用出现的valueerror: unknown scheme for proxy url url(‘socks:&#x2F;&#x2F;127.0.0.1:7890&#x2F;‘)-CSDN博客</a></p><h2 id="安装后使用方法"><a href="#安装后使用方法" class="headerlink" title="安装后使用方法"></a>安装后使用方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">##激活conda环境</span></span><br><span class="line">conda activate sdwebui</span><br><span class="line"></span><br><span class="line"><span class="comment">##切换目录</span></span><br><span class="line"><span class="built_in">cd</span> /home/raymondhe/SDwebui/stable-diffusion-webui/</span><br><span class="line"></span><br><span class="line"><span class="comment">##运行SDwebui</span></span><br><span class="line">python launch.py</span><br></pre></td></tr></table></figure><h2 id="模型推荐"><a href="#模型推荐" class="headerlink" title="模型推荐"></a>模型推荐</h2><p><a href="https://civitai.com/models">Civitai | Share your models</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;平台&quot;&gt;&lt;a href=&quot;#平台&quot; class=&quot;headerlink&quot; title=&quot;平台&quot;&gt;&lt;/a&gt;平台&lt;/h2&gt;&lt;p&gt;Ubuntu22.04LTS&lt;/p&gt;
+&lt;p&gt;CUDA11.5&lt;/p&gt;
+&lt;p&gt;Torch1.12.0&lt;/p&gt;
+&lt;p&gt;显卡RTX2060-6G&lt;</summary>
+      
+    
+    
+    
+    <category term="软件/系统操作指南" scheme="https://suikaed.github.io/categories/%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="Stable Diffusion" scheme="https://suikaed.github.io/tags/Stable-Diffusion/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux终端常用命令（更新中）</title>
+    <link href="https://suikaed.github.io/2024/03/29/Post-007/"/>
+    <id>https://suikaed.github.io/2024/03/29/Post-007/</id>
+    <published>2024-03-29T14:19:00.000Z</published>
+    <updated>2024-03-29T14:21:15.798Z</updated>
+    
+    <content type="html"><![CDATA[<aside>👉🏻 Ubuntu22.04LTS</aside><h3 id="1-显卡"><a href="#1-显卡" class="headerlink" title="1. 显卡"></a>1. 显卡</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#查看显卡</span></span><br><span class="line">nvidia-smi</span><br><span class="line"></span><br><span class="line"><span class="comment">#查看CUDA</span></span><br><span class="line">nvcc -V</span><br></pre></td></tr></table></figure><h3 id="2-网络"><a href="#2-网络" class="headerlink" title="2. 网络"></a>2. 网络</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#查看网络状态</span></span><br><span class="line">ifconfig</span><br><span class="line"></span><br><span class="line"><span class="comment">#限制网络速度(下载/上传)</span></span><br><span class="line">sudo wondershaper &lt;interface&gt; &lt;download_speed&gt; &lt;upload_speed&gt;</span><br><span class="line"><span class="comment">#例如</span></span><br><span class="line">sudo wondershaper enp8s0 36000 36000</span><br><span class="line"></span><br><span class="line"><span class="comment">#清除限速</span></span><br><span class="line">sudo wondershaper clear &lt;interface&gt;</span><br><span class="line"><span class="comment">#例如</span></span><br><span class="line">sudo wondershaper clear enp8s0</span><br></pre></td></tr></table></figure><hr><p>（持续更新）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;aside&gt;
+👉🏻 Ubuntu22.04LTS
+
+&lt;/aside&gt;
+
+&lt;h3 id=&quot;1-显卡&quot;&gt;&lt;a href=&quot;#1-显卡&quot; class=&quot;headerlink&quot; title=&quot;1. 显卡&quot;&gt;&lt;/a&gt;1. 显卡&lt;/h3&gt;&lt;figure class=&quot;highlight</summary>
+      
+    
+    
+    
+    <category term="软件/系统操作指南" scheme="https://suikaed.github.io/categories/%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="Ubuntu" scheme="https://suikaed.github.io/tags/Ubuntu/"/>
+    
+    <category term="终端" scheme="https://suikaed.github.io/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mac终端常用命令（更新中）</title>
     <link href="https://suikaed.github.io/2024/03/01/Post-006/"/>
     <id>https://suikaed.github.io/2024/03/01/Post-006/</id>
     <published>2024-03-01T09:28:00.000Z</published>
-    <updated>2024-03-02T08:36:46.085Z</updated>
+    <updated>2024-03-29T14:22:19.595Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1-生成ssh"><a href="#1-生成ssh" class="headerlink" title="1. 生成ssh"></a>1. 生成ssh</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//生成ssh</span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line">//再到/home文件里，shift+command+。显示隐藏文件，找到.ssh文件</span><br></pre></td></tr></table></figure><h3 id="2-Hexo常用命令"><a href="#2-Hexo常用命令" class="headerlink" title="2. Hexo常用命令"></a>2. Hexo常用命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//页面生成</span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">//页面预览</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line">//页面部署</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><hr><p>（持续更新）</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="1-生成ssh"><a href="#1-生成ssh" class="headerlink" title="1. 生成ssh"></a>1. 生成ssh</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//生成ssh</span><br><span class="line">ssh-keygen -t rsa</span><br><span class="line">//再到/home文件里，<span class="built_in">shift</span>+<span class="built_in">command</span>+。显示隐藏文件，找到.ssh文件</span><br></pre></td></tr></table></figure><h3 id="2-Hexo常用命令"><a href="#2-Hexo常用命令" class="headerlink" title="2. Hexo常用命令"></a>2. Hexo常用命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//页面生成</span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">//页面预览</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line">//页面部署</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><hr><p>（持续更新）</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;1-生成ssh&quot;&gt;&lt;a href=&quot;#1-生成ssh&quot; class=&quot;headerlink&quot; title=&quot;1. 生成ssh&quot;&gt;&lt;/a&gt;1. 生成ssh&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td </summary>
+    <summary type="html">&lt;h3 id=&quot;1-生成ssh&quot;&gt;&lt;a href=&quot;#1-生成ssh&quot; class=&quot;headerlink&quot; title=&quot;1. 生成ssh&quot;&gt;&lt;/a&gt;1. 生成ssh&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class</summary>
       
     
     
@@ -135,15 +193,15 @@
     <link href="https://suikaed.github.io/2024/02/25/Post-002/"/>
     <id>https://suikaed.github.io/2024/02/25/Post-002/</id>
     <published>2024-02-25T14:31:00.000Z</published>
-    <updated>2024-03-02T08:36:15.494Z</updated>
+    <updated>2024-03-29T14:22:57.313Z</updated>
     
-    <content type="html"><![CDATA[<p>在<em>Blog</em>文件夹中新建以下MD文件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">date: 2024-xx-xx xx:xx:xx</span><br><span class="line">categories:</span><br><span class="line">- xxxx</span><br><span class="line">tags:</span><br><span class="line">- xxxx</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">（MD格式的文章粘贴在此处）</span><br></pre></td></tr></table></figure><p>再用终端生成文章，同步到Github部署页面中</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>在<em>Blog</em>文件夹中新建以下MD文件：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxx</span><br><span class="line">date: 2024-xx-xx xx:xx:xx</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> xxxx</span><br><span class="line">tags:</span><br><span class="line"><span class="section">- xxxx</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">（MD格式的文章粘贴在此处）</span><br></pre></td></tr></table></figure><p>再用终端生成文章，同步到Github部署页面中</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;在&lt;em&gt;Blog&lt;/em&gt;文件夹中新建以下MD文件：&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;sp</summary>
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;spa</summary>
       
     
     
@@ -160,9 +218,9 @@
     <link href="https://suikaed.github.io/2024/02/25/Post-001/"/>
     <id>https://suikaed.github.io/2024/02/25/Post-001/</id>
     <published>2024-02-25T07:41:36.000Z</published>
-    <updated>2024-03-02T08:35:54.713Z</updated>
+    <updated>2024-03-29T14:23:07.552Z</updated>
     
-    <content type="html"><![CDATA[<p>之前用Hexo部署在Github的方式搭建了博客，现在从写文章开始到在博客中发布。</p><hr><ol><li><p>首先找到本地库的文件夹，例如文件夹叫做<em>Blog</em></p></li><li><p>右键文件夹，选择<em>New Terminal at Folder…</em>，打开终端</p></li><li><p>输入：</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;Page#001&quot;</span><br></pre></td></tr></table></figure></li><li><p>source文件夹中出现一个叫<em>Page#001</em>的markdown文件，并导出文章内容（如从Notion），再使用MD编辑器（如IntelliJ IDEA）完成文章编辑</p></li><li><p>终端输入：</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g    # 生成页面</span><br><span class="line">hexo d    # 部署发布</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>之前用Hexo部署在Github的方式搭建了博客，现在从写文章开始到在博客中发布。</p><hr><ol><li><p>首先找到本地库的文件夹，例如文件夹叫做<em>Blog</em></p></li><li><p>右键文件夹，选择<em>New Terminal at Folder…</em>，打开终端</p></li><li><p>输入：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;Page#001&quot;</span></span><br></pre></td></tr></table></figure></li><li><p>source文件夹中出现一个叫<em>Page#001</em>的markdown文件，并导出文章内容（如从Notion），再使用MD编辑器（如IntelliJ IDEA）完成文章编辑</p></li><li><p>终端输入：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g    <span class="comment"># 生成页面</span></span><br><span class="line">hexo d    <span class="comment"># 部署发布</span></span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
     
       
